@@ -4,23 +4,50 @@
 
 ## Goal of the project: ETL applied to Fast Food and Population Data. 
 
-* Extract: 
+* Data Source: 
 
-https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population
+Our first data source is from Wikipedia. We web scraped the table and transformed the data into Pandas Dataframe. 
+
+[Population Table](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population)
+
+Our second data source is from Kaggle. We downloaded the CSV file from the website for the Fast Food Data.  
+
+[Fast Food Data Set](https://www.kaggle.com/datafiniti/fast-food-restaurants)
+
+### Example of Data:
 
 ![Wiki_table](Resources/wiki_table.PNG)
 
-https://www.kaggle.com/datafiniti/fast-food-restaurants
 
 ![fastfoodexcel](Resources/fastfood_excel.PNG)
+
+Extract: 
+
+![1st_groupby](Resources/groupby.PNG)
 
 
 
 ```python
-# Example:
-news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
-```
+population = "Resources/US_population_2018.csv"
+population = pd.read_csv(population)
+population.head()
 Transform
 
+![merge](Resources/merge.PNG)
 
- 
+![merge_raw](Resources/merge_raw.PNG)
+
+
+Load: 
+
+
+
+
+
+
+
+![chart](Resources/barchart.PNG)
+
+
+
+
