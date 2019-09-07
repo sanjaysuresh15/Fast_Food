@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 code/tmp/*
+secret.py
 
 
 __pycache__/
