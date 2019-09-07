@@ -10,7 +10,7 @@ Our first data source is from Wikipedia. We web scraped the table and transforme
 
 [Population Table](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population)
 
-<img src="Resources/wiki_table.PNG" width="800">
+<img src="Resources/Images/wiki_table.PNG" width="800">
 
 Our second data source is from Kaggle. We downloaded the CSV file from the website for the Fast Food Data.  
 
@@ -42,6 +42,8 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 #### We visualized the data with a bar chart graph. 
 
 <img src="Resources/Images/barchart.PNG" width="500">
+
+Observations: Based on the findings, we noticed that although Ohio ranked 6th in population, it appears to have the third highest per capita fast food restaurant count. On the contrary, New York has the fourrh largest population but has a much smaller restaurant count among the top ten states. We think it's beacause New Yorkers tend to go to the slow food restaurants/boutiques as opposed to settling for fast food restaurants. 
 
 
 ### Load:
