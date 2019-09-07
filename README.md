@@ -18,36 +18,19 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 
 ![Wiki_table](Resources/wiki_table.PNG)
 
-
 ![fastfoodexcel](Resources/fastfood_excel.PNG)
 
-Extract: 
+Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
 
 ![1st_groupby](Resources/groupby.PNG)
 
-
-
-```python
-population = "Resources/US_population_2018.csv"
-population = pd.read_csv(population)
-population.head()
-Transform
+Then we merged with the Fast Food Data. 
 
 ![merge](Resources/merge.PNG)
+
+
 
 ![merge_raw](Resources/merge_raw.PNG)
 
 
 Load: 
-
-
-
-
-
-
-
-![chart](Resources/barchart.PNG)
-
-
-
-
