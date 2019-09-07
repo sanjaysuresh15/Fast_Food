@@ -16,12 +16,12 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 
 [Fast Food Data Set](https://www.kaggle.com/datafiniti/fast-food-restaurants)
 
-<img src="Resources/fastfood_excel.PNG" width="800">
+<img src="Resources/fastfood_excel.PNG" width="500">
 
 
 ### Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
 
-<img src="Resources/groupby.PNG" width="800">
+<img src="Resources/groupby.PNG" width="500">
 
 
 #### Then we merged with the Fast Food Data. 
@@ -34,12 +34,12 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 
 #### We produced the top ten states with the most fast food restaurants after we merged the data. 
 
-<img src="Resources/Top10s.PNG" width="800">
+<img src="Resources/Top10s.PNG" width="500">
 
 
 #### We visualized the data with a bar chart graph. 
 
-<img src="Resources/barchart" width="800">
+<img src="Resources/barchart.PNG" width="500">
 
 
-Load:
+### Load:
