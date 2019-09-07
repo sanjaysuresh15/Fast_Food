@@ -19,7 +19,9 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 <img src="Resources/fastfood_excel.PNG" width="500">
 
 
-### Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
+### Extract and Transform: 
+
+#### We select the population related data from the wikipedia table and grouped by state. 
 
 <img src="Resources/groupby.PNG" width="500">
 
@@ -43,3 +45,7 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 
 
 ### Load:
+
+#### We loaded the tables into a SQL database. 
+
+<img src="Resources/db_tables.png" width="500">
