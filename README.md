@@ -4,31 +4,27 @@
 
 ## Goal of the project: ETL applied to Fast Food and Population Data. 
 
-* Data Source: 
+### Data Source: 
 
 Our first data source is from Wikipedia. We web scraped the table and transformed the data into Pandas Dataframe. 
 
 [Population Table](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population)
 
-* Our second data source is from Kaggle. We downloaded the CSV file from the website for the Fast Food Data.  
+<img src="Resources/wiki_table.PNG" width="800">
+
+Our second data source is from Kaggle. We downloaded the CSV file from the website for the Fast Food Data.  
 
 [Fast Food Data Set](https://www.kaggle.com/datafiniti/fast-food-restaurants)
-
-## Example of Data:
-
-<img src="Resources/wiki_table.PNG" width="800">
 
 <img src="Resources/fastfood_excel.PNG" width="800">
 
 
-## Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
+### Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
 
 <img src="Resources/groupby.PNG" width="800">
 
 
 #### Then we merged with the Fast Food Data. 
-
-
 
 
 <img src="Resources/merge_raw.PNG" width="800">
@@ -38,11 +34,12 @@ Our first data source is from Wikipedia. We web scraped the table and transforme
 
 #### We produced the top ten states with the most fast food restaurants after we merged the data. 
 
-![merge](Resources/Top10s.PNG)
+<img src="Resources/Top10s.PNG" width="800">
+
 
 #### We visualized the data with a bar chart graph. 
 
-![merge](Resources/barchart.PNG)
+<img src="Resources/barchart" width="800">
 
 
-Load: 
+Load:
