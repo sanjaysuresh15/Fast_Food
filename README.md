@@ -10,33 +10,37 @@ Our first data source is from Wikipedia. We web scraped the table and transforme
 
 [Population Table](https://simple.wikipedia.org/wiki/List_of_U.S._states_by_population)
 
-Our second data source is from Kaggle. We downloaded the CSV file from the website for the Fast Food Data.  
+* Our second data source is from Kaggle. We downloaded the CSV file from the website for the Fast Food Data.  
 
 [Fast Food Data Set](https://www.kaggle.com/datafiniti/fast-food-restaurants)
 
-### Example of Data:
+## Example of Data:
 
-![Wiki_table](Resources/wiki_table.PNG)
+<img src="Resources/wiki_table.PNG" width="800">
 
-![fastfoodexcel](Resources/fastfood_excel.PNG)
-
-#### Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
+<img src="Resources/fastfood_excel.PNG" width="800">
 
 
+## Extract and Transform: We select the population related data from wikipedia table and grouped by state. 
 
-![1st_groupby](Resources/groupby.PNG)
+<img src="Resources/groupby.PNG" width="800">
 
-##### Then we merged with the Fast Food Data. 
 
-![merge_raw](Resources/merge_raw.PNG)
+#### Then we merged with the Fast Food Data. 
 
-![merge](Resources/merge.PNG)
 
-##### We produced the top ten states with the most fast food restaurants after we merged the data. 
 
-![merge](Resources/Top10.PNG)
 
-We visualized the data with a bar chart graph. 
+<img src="Resources/merge_raw.PNG" width="800">
+
+<img src="Resources/merge.PNG" width="800">
+
+
+#### We produced the top ten states with the most fast food restaurants after we merged the data. 
+
+![merge](Resources/Top10s.PNG)
+
+#### We visualized the data with a bar chart graph. 
 
 ![merge](Resources/barchart.PNG)
 
