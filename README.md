@@ -43,7 +43,9 @@ Our second data source is from Kaggle. We downloaded the CSV file from the websi
 
 <img src="Resources/Images/barchart.PNG" width="500">
 
-Observations: Based on the findings, we noticed that although Ohio ranked 6th in population, it appears to have the third highest per capita fast food restaurant count. On the contrary, New York has the fourrh largest population but has a much smaller restaurant count among the top ten states. We think it's beacause New Yorkers tend to go to the slow food restaurants/boutiques as opposed to settling for fast food restaurants. 
+##### Observations:
+
+Based on the findings, we noticed that although Ohio ranked 6th in population, it appears to have the third highest per capita fast food restaurant count. On the contrary, New York has the fourth largest population but has a much smaller restaurant count among the top ten states. We think it's because New Yorkers tend to go to the slow food restaurants/boutiques as opposed to settling for fast food restaurants. 
 
 
 ### Load:
